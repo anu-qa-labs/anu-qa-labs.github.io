@@ -1,0 +1,328 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anu Chandru | Software Test Lead</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        header {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            color: white;
+        }
+
+        .hero h2 {
+            font-size: 1.5rem;
+            color: #38bdf8;
+            font-weight: 500;
+        }
+
+        .hero p {
+            max-width: 700px;
+            color: #cbd5e1;
+            font-size: 1.1rem;
+        }
+
+        .btn-group {
+            margin-top: 15px;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border-radius: 10px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .primary-btn {
+            background: #38bdf8;
+            color: #0f172a;
+        }
+
+        .primary-btn:hover {
+            background: #0ea5e9;
+        }
+
+        .secondary-btn {
+            border: 1px solid #38bdf8;
+            color: #38bdf8;
+        }
+
+        .secondary-btn:hover {
+            background: #38bdf8;
+            color: #0f172a;
+        }
+
+        section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 40px;
+            color: white;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 25px;
+            border-radius: 16px;
+            transition: transform 0.3s ease;
+            border: 1px solid #334155;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            margin-bottom: 15px;
+            color: #38bdf8;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skill {
+            background: #1e293b;
+            padding: 12px 18px;
+            border-radius: 30px;
+            border: 1px solid #334155;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            border-top: 1px solid #334155;
+            color: #94a3b8;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.8rem;
+            }
+
+            .hero h2 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="container hero">
+        <h1>Anu Chandru</h1>
+        <h2>Software Test Lead | QA Engineer</h2>
+
+        <p>
+            Experienced Software Test Lead with expertise in automation testing, 
+          API testing, Agile methodologies, CI/CD pipelines, and leading QA teams
+          to deliver high-quality software products. 
+        </p>
+
+        <div class="btn-group">
+            <a href="www.linkedin.com/in/rajalakshmi-anu-c-106394118" class="btn primary-btn">LinkedIn</a>
+            <a href="https://github.com/anu-qa-labs" class="btn secondary-btn">GitHub</a>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="card">
+            <p>
+                I specialize in building scalable testing solutions, improving software quality, 
+              and driving efficient delivery processes across the full SDLC. 
+              My experience includes automation framework development, API and frontend/backend testing,
+              data validation, and working in Agile delivery environments. 
+              I have hands-on experience with Playwright, TypeScript, SQL and cross-functional 
+              collaboration with developers, product teams, and stakeholders.
+              Beyond testing, I have also contributed to release coordination, sprint planning, 
+              risk analysis, and mentoring QA engineers, helping teams deliver reliable, 
+              high-quality software in fast-paced and regulated environments.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-list">
+            <div class="skill">Playwright</div>
+            <div class="skill">Katalon</div>
+            <div class="skill">Postman</div>
+            <div class="skill">JIRA</div>
+            <div class="skill">REST API Testing</div>
+            <div class="skill">Test Automation</div>
+            <div class="skill">Agile / Scrum</div>
+            <div class="skill"></div>
+            <div class="skill">SQL</div>
+            <div class="skill">Risk Analysis & Problem Solving</div>
+            <div class="skill">Performance Testing</div>
+            <div class="skill">Reporting & Documentation</div>
+           <div class="skill">Leadership, Mentoring & Team Coordination</div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>Thales – Aviation Inflight Entertainment</h3>
+                <p>
+                    Worked on quality assurance and testing activities for advanced inflight
+                    entertainment systems used in commercial aviation. Responsible for functional,
+                    integration, regression,performance tests and end-to-end testing across multimedia and passenger
+                    entertainment features.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Intelsat – Aviation Inflight Entertainment</h3>
+                <p>
+                    Contributed to testing and validation of aviation connectivity and inflight
+                    entertainment platforms. Collaborated with cross-functional teams to ensure
+                    system reliability, performance, and seamless passenger experience.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>ZDF – Television Broadcasting</h3>
+                <p>
+                    Performed backend testing for television broadcasting applications and 
+                  media delivery systems. Validated workflows, streaming functionality, and 
+                  platform stability across multiple environments. 
+                  Contributed to test planning and test strategy creation, 
+                  coordinated closely with cross-functional teams, and supported smooth 
+                  and high-quality delivery throughout the SDLC.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Casino Gaming Products</h3>
+                <p>
+                    Tested various casino gaming products including gameplay functionality,
+                    compliance validation, backend integrations, and performance testing to ensure
+                    high-quality gaming experiences and regulatory standards.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2 class="section-title">Experience Highlights</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>Team Leadership</h3>
+                <p>
+                    Managed QA teams, coordinated sprint testing activities,
+                    and improved release quality.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Defect Reduction</h3>
+                <p>
+                    Improved test coverage and significantly reduced production defects.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Process Improvement</h3>
+                <p>
+                    Standardized QA processes and implemented automation best practices.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="card">
+            <p><strong>LinkedIn:</strong> linkedin.com/in/rajalakshmi-anu-c-106394118</p>
+            <p><strong>GitHub:</strong> github.com/anu-qa-labs</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Anu Chandru | Software Test Lead Portfolio</p>
+</footer>
+
+</body>
+</html>
+
